@@ -2,6 +2,7 @@
 package main
 
 import(
+	"fmt"
 	"os"
     "net/http"
     "net/http/httputil"
@@ -17,5 +18,7 @@ func main() {
         Addr: sourceAddress,
         Handler: proxyHandler,
     }
-    aserver.ListenAndServe()
+    err := server.ListenAndServe()
+
+	fmt.Println(err.Error())
 }
