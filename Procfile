@@ -1,1 +1,1 @@
-web:heroku-proxy
+web: heroku-proxy
