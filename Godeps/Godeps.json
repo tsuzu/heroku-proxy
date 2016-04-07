@@ -1,0 +1,6 @@
+{
+	"ImportPath": "heroku-proxy",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v61",
+	"Deps": []
+}
