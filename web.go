@@ -17,5 +17,5 @@ func main() {
         Addr: sourceAddress,
         Handler: proxyHandler,
     }
-    server.ListenAndServe()
+    aserver.ListenAndServe()
 }
